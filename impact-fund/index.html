@@ -1,0 +1,980 @@
+<!doctype html>
+<html data-palette="mono" lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <link href="/assets/473c492207-nervant-light.webp" rel="icon" type="image/png"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <!-- Primary SEO -->
+  <title>
+   Nervant — Free Live Polling &amp; Audience Engagement
+  </title>
+  <meta content="Free live polling for teams — run live polls, word clouds and quizzes, and watch results update in real time. Free to start, and participants need no account to take part." name="description"/>
+  <meta content="free live polling, free live polls, live polling, live poll app, free poll maker, real-time polling, word cloud, quiz builder, team engagement, Mentimeter alternative, Kahoot alternative, audience response, employee engagement, HR training" name="keywords"/>
+  <meta content="#7c3aed" name="theme-color"/>
+  <meta content="noindex, nofollow" name="robots"/>
+  <meta content="yes" name="mobile-web-app-capable"/>
+  <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+  <meta content="Nervant" name="apple-mobile-web-app-title"/>
+  <!-- Open Graph -->
+  <meta content="Nervant — Free Live Polling &amp; Audience Engagement" property="og:title"/>
+  <meta content="Run free live polls, word clouds and quizzes with your team. Real-time audience engagement — free to start, no account needed to take part." property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="https://nervant.io/" property="og:url"/>
+  <meta content="/nervant-dark.png" property="og:image"/>
+  <meta content="Nervant" property="og:site_name"/>
+  <!-- Twitter -->
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="Nervant — Free Live Polling &amp; Audience Engagement" name="twitter:title"/>
+  <meta content="Run free live polls, word clouds and quizzes with your team. Real-time audience engagement — free to start, no account needed to take part." name="twitter:description"/>
+  <meta content="/nervant-dark.png" name="twitter:image"/>
+  <!-- Structured data -->
+  <link crossorigin="" href="/assets/3d0add90b3-index-B2MVfmsZ.css" rel="stylesheet"/>
+  <style>
+   /* The default is mono light, so the untouched document is white. This was
+       #0d0d1a — the brand's violet-black — back when the default was dark; left
+       alone it is now a dark flash on every cold load, which is the exact
+       problem the inline colour exists to prevent, inverted. The boot script
+       below paints dark again for anyone whose theme is dark. */
+    html, body { background-color: #ffffff; margin: 0; padding: 0; }
+  </style>
+  <style type="text/css">
+   [data-sonner-toaster][dir=ltr],html[dir=ltr]{--toast-icon-margin-start:-3px;--toast-icon-margin-end:4px;--toast-svg-margin-start:-1px;--toast-svg-margin-end:0px;--toast-button-margin-start:auto;--toast-button-margin-end:0;--toast-close-button-start:0;--toast-close-button-end:unset;--toast-close-button-transform:translate(-35%, -35%)}[data-sonner-toaster][dir=rtl],html[dir=rtl]{--toast-icon-margin-start:4px;--toast-icon-margin-end:-3px;--toast-svg-margin-start:0px;--toast-svg-margin-end:-1px;--toast-button-margin-start:0;--toast-button-margin-end:auto;--toast-close-button-start:unset;--toast-close-button-end:0;--toast-close-button-transform:translate(35%, -35%)}[data-sonner-toaster]{position:fixed;width:var(--width);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;--gray1:hsl(0, 0%, 99%);--gray2:hsl(0, 0%, 97.3%);--gray3:hsl(0, 0%, 95.1%);--gray4:hsl(0, 0%, 93%);--gray5:hsl(0, 0%, 90.9%);--gray6:hsl(0, 0%, 88.7%);--gray7:hsl(0, 0%, 85.8%);--gray8:hsl(0, 0%, 78%);--gray9:hsl(0, 0%, 56.1%);--gray10:hsl(0, 0%, 52.3%);--gray11:hsl(0, 0%, 43.5%);--gray12:hsl(0, 0%, 9%);--border-radius:8px;box-sizing:border-box;padding:0;margin:0;list-style:none;outline:0;z-index:999999999;transition:transform .4s ease}@media (hover:none) and (pointer:coarse){[data-sonner-toaster][data-lifted=true]{transform:none}}[data-sonner-toaster][data-x-position=right]{right:var(--offset-right)}[data-sonner-toaster][data-x-position=left]{left:var(--offset-left)}[data-sonner-toaster][data-x-position=center]{left:50%;transform:translateX(-50%)}[data-sonner-toaster][data-y-position=top]{top:var(--offset-top)}[data-sonner-toaster][data-y-position=bottom]{bottom:var(--offset-bottom)}[data-sonner-toast]{--y:translateY(100%);--lift-amount:calc(var(--lift) * var(--gap));z-index:var(--z-index);position:absolute;opacity:0;transform:var(--y);touch-action:none;transition:transform .4s,opacity .4s,height .4s,box-shadow .2s;box-sizing:border-box;outline:0;overflow-wrap:anywhere}[data-sonner-toast][data-styled=true]{padding:16px;background:var(--normal-bg);border:1px solid var(--normal-border);color:var(--normal-text);border-radius:var(--border-radius);box-shadow:0 4px 12px rgba(0,0,0,.1);width:var(--width);font-size:13px;display:flex;align-items:center;gap:6px}[data-sonner-toast]:focus-visible{box-shadow:0 4px 12px rgba(0,0,0,.1),0 0 0 2px rgba(0,0,0,.2)}[data-sonner-toast][data-y-position=top]{top:0;--y:translateY(-100%);--lift:1;--lift-amount:calc(1 * var(--gap))}[data-sonner-toast][data-y-position=bottom]{bottom:0;--y:translateY(100%);--lift:-1;--lift-amount:calc(var(--lift) * var(--gap))}[data-sonner-toast][data-styled=true] [data-description]{font-weight:400;line-height:1.4;color:#3f3f3f}[data-rich-colors=true][data-sonner-toast][data-styled=true] [data-description]{color:inherit}[data-sonner-toaster][data-sonner-theme=dark] [data-description]{color:#e8e8e8}[data-sonner-toast][data-styled=true] [data-title]{font-weight:500;line-height:1.5;color:inherit}[data-sonner-toast][data-styled=true] [data-icon]{display:flex;height:16px;width:16px;position:relative;justify-content:flex-start;align-items:center;flex-shrink:0;margin-left:var(--toast-icon-margin-start);margin-right:var(--toast-icon-margin-end)}[data-sonner-toast][data-promise=true] [data-icon]>svg{opacity:0;transform:scale(.8);transform-origin:center;animation:sonner-fade-in .3s ease forwards}[data-sonner-toast][data-styled=true] [data-icon]>*{flex-shrink:0}[data-sonner-toast][data-styled=true] [data-icon] svg{margin-left:var(--toast-svg-margin-start);margin-right:var(--toast-svg-margin-end)}[data-sonner-toast][data-styled=true] [data-content]{display:flex;flex-direction:column;gap:2px}[data-sonner-toast][data-styled=true] [data-button]{border-radius:4px;padding-left:8px;padding-right:8px;height:24px;font-size:12px;color:var(--normal-bg);background:var(--normal-text);margin-left:var(--toast-button-margin-start);margin-right:var(--toast-button-margin-end);border:none;font-weight:500;cursor:pointer;outline:0;display:flex;align-items:center;flex-shrink:0;transition:opacity .4s,box-shadow .2s}[data-sonner-toast][data-styled=true] [data-button]:focus-visible{box-shadow:0 0 0 2px rgba(0,0,0,.4)}[data-sonner-toast][data-styled=true] [data-button]:first-of-type{margin-left:var(--toast-button-margin-start);margin-right:var(--toast-button-margin-end)}[data-sonner-toast][data-styled=true] [data-cancel]{color:var(--normal-text);background:rgba(0,0,0,.08)}[data-sonner-toaster][data-sonner-theme=dark] [data-sonner-toast][data-styled=true] [data-cancel]{background:rgba(255,255,255,.3)}[data-sonner-toast][data-styled=true] [data-close-button]{position:absolute;left:var(--toast-close-button-start);right:var(--toast-close-button-end);top:0;height:20px;width:20px;display:flex;justify-content:center;align-items:center;padding:0;color:var(--gray12);background:var(--normal-bg);border:1px solid var(--gray4);transform:var(--toast-close-button-transform);border-radius:50%;cursor:pointer;z-index:1;transition:opacity .1s,background .2s,border-color .2s}[data-sonner-toast][data-styled=true] [data-close-button]:focus-visible{box-shadow:0 4px 12px rgba(0,0,0,.1),0 0 0 2px rgba(0,0,0,.2)}[data-sonner-toast][data-styled=true] [data-disabled=true]{cursor:not-allowed}[data-sonner-toast][data-styled=true]:hover [data-close-button]:hover{background:var(--gray2);border-color:var(--gray5)}[data-sonner-toast][data-swiping=true]::before{content:'';position:absolute;left:-100%;right:-100%;height:100%;z-index:-1}[data-sonner-toast][data-y-position=top][data-swiping=true]::before{bottom:50%;transform:scaleY(3) translateY(50%)}[data-sonner-toast][data-y-position=bottom][data-swiping=true]::before{top:50%;transform:scaleY(3) translateY(-50%)}[data-sonner-toast][data-swiping=false][data-removed=true]::before{content:'';position:absolute;inset:0;transform:scaleY(2)}[data-sonner-toast][data-expanded=true]::after{content:'';position:absolute;left:0;height:calc(var(--gap) + 1px);bottom:100%;width:100%}[data-sonner-toast][data-mounted=true]{--y:translateY(0);opacity:1}[data-sonner-toast][data-expanded=false][data-front=false]{--scale:var(--toasts-before) * 0.05 + 1;--y:translateY(calc(var(--lift-amount) * var(--toasts-before))) scale(calc(-1 * var(--scale)));height:var(--front-toast-height)}[data-sonner-toast]>*{transition:opacity .4s}[data-sonner-toast][data-x-position=right]{right:0}[data-sonner-toast][data-x-position=left]{left:0}[data-sonner-toast][data-expanded=false][data-front=false][data-styled=true]>*{opacity:0}[data-sonner-toast][data-visible=false]{opacity:0;pointer-events:none}[data-sonner-toast][data-mounted=true][data-expanded=true]{--y:translateY(calc(var(--lift) * var(--offset)));height:var(--initial-height)}[data-sonner-toast][data-removed=true][data-front=true][data-swipe-out=false]{--y:translateY(calc(var(--lift) * -100%));opacity:0}[data-sonner-toast][data-removed=true][data-front=false][data-swipe-out=false][data-expanded=true]{--y:translateY(calc(var(--lift) * var(--offset) + var(--lift) * -100%));opacity:0}[data-sonner-toast][data-removed=true][data-front=false][data-swipe-out=false][data-expanded=false]{--y:translateY(40%);opacity:0;transition:transform .5s,opacity .2s}[data-sonner-toast][data-removed=true][data-front=false]::before{height:calc(var(--initial-height) + 20%)}[data-sonner-toast][data-swiping=true]{transform:var(--y) translateY(var(--swipe-amount-y,0)) translateX(var(--swipe-amount-x,0));transition:none}[data-sonner-toast][data-swiped=true]{user-select:none}[data-sonner-toast][data-swipe-out=true][data-y-position=bottom],[data-sonner-toast][data-swipe-out=true][data-y-position=top]{animation-duration:.2s;animation-timing-function:ease-out;animation-fill-mode:forwards}[data-sonner-toast][data-swipe-out=true][data-swipe-direction=left]{animation-name:swipe-out-left}[data-sonner-toast][data-swipe-out=true][data-swipe-direction=right]{animation-name:swipe-out-right}[data-sonner-toast][data-swipe-out=true][data-swipe-direction=up]{animation-name:swipe-out-up}[data-sonner-toast][data-swipe-out=true][data-swipe-direction=down]{animation-name:swipe-out-down}@keyframes swipe-out-left{from{transform:var(--y) translateX(var(--swipe-amount-x));opacity:1}to{transform:var(--y) translateX(calc(var(--swipe-amount-x) - 100%));opacity:0}}@keyframes swipe-out-right{from{transform:var(--y) translateX(var(--swipe-amount-x));opacity:1}to{transform:var(--y) translateX(calc(var(--swipe-amount-x) + 100%));opacity:0}}@keyframes swipe-out-up{from{transform:var(--y) translateY(var(--swipe-amount-y));opacity:1}to{transform:var(--y) translateY(calc(var(--swipe-amount-y) - 100%));opacity:0}}@keyframes swipe-out-down{from{transform:var(--y) translateY(var(--swipe-amount-y));opacity:1}to{transform:var(--y) translateY(calc(var(--swipe-amount-y) + 100%));opacity:0}}@media (max-width:600px){[data-sonner-toaster]{position:fixed;right:var(--mobile-offset-right);left:var(--mobile-offset-left);width:100%}[data-sonner-toaster][dir=rtl]{left:calc(var(--mobile-offset-left) * -1)}[data-sonner-toaster] [data-sonner-toast]{left:0;right:0;width:calc(100% - var(--mobile-offset-left) * 2)}[data-sonner-toaster][data-x-position=left]{left:var(--mobile-offset-left)}[data-sonner-toaster][data-y-position=bottom]{bottom:var(--mobile-offset-bottom)}[data-sonner-toaster][data-y-position=top]{top:var(--mobile-offset-top)}[data-sonner-toaster][data-x-position=center]{left:var(--mobile-offset-left);right:var(--mobile-offset-right);transform:none}}[data-sonner-toaster][data-sonner-theme=light]{--normal-bg:#fff;--normal-border:var(--gray4);--normal-text:var(--gray12);--success-bg:hsl(143, 85%, 96%);--success-border:hsl(145, 92%, 87%);--success-text:hsl(140, 100%, 27%);--info-bg:hsl(208, 100%, 97%);--info-border:hsl(221, 91%, 93%);--info-text:hsl(210, 92%, 45%);--warning-bg:hsl(49, 100%, 97%);--warning-border:hsl(49, 91%, 84%);--warning-text:hsl(31, 92%, 45%);--error-bg:hsl(359, 100%, 97%);--error-border:hsl(359, 100%, 94%);--error-text:hsl(360, 100%, 45%)}[data-sonner-toaster][data-sonner-theme=light] [data-sonner-toast][data-invert=true]{--normal-bg:#000;--normal-border:hsl(0, 0%, 20%);--normal-text:var(--gray1)}[data-sonner-toaster][data-sonner-theme=dark] [data-sonner-toast][data-invert=true]{--normal-bg:#fff;--normal-border:var(--gray3);--normal-text:var(--gray12)}[data-sonner-toaster][data-sonner-theme=dark]{--normal-bg:#000;--normal-bg-hover:hsl(0, 0%, 12%);--normal-border:hsl(0, 0%, 20%);--normal-border-hover:hsl(0, 0%, 25%);--normal-text:var(--gray1);--success-bg:hsl(150, 100%, 6%);--success-border:hsl(147, 100%, 12%);--success-text:hsl(150, 86%, 65%);--info-bg:hsl(215, 100%, 6%);--info-border:hsl(223, 43%, 17%);--info-text:hsl(216, 87%, 65%);--warning-bg:hsl(64, 100%, 6%);--warning-border:hsl(60, 100%, 9%);--warning-text:hsl(46, 87%, 65%);--error-bg:hsl(358, 76%, 10%);--error-border:hsl(357, 89%, 16%);--error-text:hsl(358, 100%, 81%)}[data-sonner-toaster][data-sonner-theme=dark] [data-sonner-toast] [data-close-button]{background:var(--normal-bg);border-color:var(--normal-border);color:var(--normal-text)}[data-sonner-toaster][data-sonner-theme=dark] [data-sonner-toast] [data-close-button]:hover{background:var(--normal-bg-hover);border-color:var(--normal-border-hover)}[data-rich-colors=true][data-sonner-toast][data-type=success]{background:var(--success-bg);border-color:var(--success-border);color:var(--success-text)}[data-rich-colors=true][data-sonner-toast][data-type=success] [data-close-button]{background:var(--success-bg);border-color:var(--success-border);color:var(--success-text)}[data-rich-colors=true][data-sonner-toast][data-type=info]{background:var(--info-bg);border-color:var(--info-border);color:var(--info-text)}[data-rich-colors=true][data-sonner-toast][data-type=info] [data-close-button]{background:var(--info-bg);border-color:var(--info-border);color:var(--info-text)}[data-rich-colors=true][data-sonner-toast][data-type=warning]{background:var(--warning-bg);border-color:var(--warning-border);color:var(--warning-text)}[data-rich-colors=true][data-sonner-toast][data-type=warning] [data-close-button]{background:var(--warning-bg);border-color:var(--warning-border);color:var(--warning-text)}[data-rich-colors=true][data-sonner-toast][data-type=error]{background:var(--error-bg);border-color:var(--error-border);color:var(--error-text)}[data-rich-colors=true][data-sonner-toast][data-type=error] [data-close-button]{background:var(--error-bg);border-color:var(--error-border);color:var(--error-text)}.sonner-loading-wrapper{--size:16px;height:var(--size);width:var(--size);position:absolute;inset:0;z-index:10}.sonner-loading-wrapper[data-visible=false]{transform-origin:center;animation:sonner-fade-out .2s ease forwards}.sonner-spinner{position:relative;top:50%;left:50%;height:var(--size);width:var(--size)}.sonner-loading-bar{animation:sonner-spin 1.2s linear infinite;background:var(--gray11);border-radius:6px;height:8%;left:-10%;position:absolute;top:-3.9%;width:24%}.sonner-loading-bar:first-child{animation-delay:-1.2s;transform:rotate(.0001deg) translate(146%)}.sonner-loading-bar:nth-child(2){animation-delay:-1.1s;transform:rotate(30deg) translate(146%)}.sonner-loading-bar:nth-child(3){animation-delay:-1s;transform:rotate(60deg) translate(146%)}.sonner-loading-bar:nth-child(4){animation-delay:-.9s;transform:rotate(90deg) translate(146%)}.sonner-loading-bar:nth-child(5){animation-delay:-.8s;transform:rotate(120deg) translate(146%)}.sonner-loading-bar:nth-child(6){animation-delay:-.7s;transform:rotate(150deg) translate(146%)}.sonner-loading-bar:nth-child(7){animation-delay:-.6s;transform:rotate(180deg) translate(146%)}.sonner-loading-bar:nth-child(8){animation-delay:-.5s;transform:rotate(210deg) translate(146%)}.sonner-loading-bar:nth-child(9){animation-delay:-.4s;transform:rotate(240deg) translate(146%)}.sonner-loading-bar:nth-child(10){animation-delay:-.3s;transform:rotate(270deg) translate(146%)}.sonner-loading-bar:nth-child(11){animation-delay:-.2s;transform:rotate(300deg) translate(146%)}.sonner-loading-bar:nth-child(12){animation-delay:-.1s;transform:rotate(330deg) translate(146%)}@keyframes sonner-fade-in{0%{opacity:0;transform:scale(.8)}100%{opacity:1;transform:scale(1)}}@keyframes sonner-fade-out{0%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.8)}}@keyframes sonner-spin{0%{opacity:1}100%{opacity:.15}}@media (prefers-reduced-motion){.sonner-loading-bar,[data-sonner-toast],[data-sonner-toast]>*{transition:none!important;animation:none!important}}.sonner-loader{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);transform-origin:center;transition:opacity .2s,transform .2s}.sonner-loader[data-visible=false]{opacity:0;transform:scale(.8) translate(-50%,-50%)}
+  </style>
+  <style type="text/css">
+   [data-vaul-drawer]{touch-action:none;will-change:transform;transition:transform .5s cubic-bezier(.32, .72, 0, 1);animation-duration:.5s;animation-timing-function:cubic-bezier(0.32,0.72,0,1)}[data-vaul-drawer][data-vaul-snap-points=false][data-vaul-drawer-direction=bottom][data-state=open]{animation-name:slideFromBottom}[data-vaul-drawer][data-vaul-snap-points=false][data-vaul-drawer-direction=bottom][data-state=closed]{animation-name:slideToBottom}[data-vaul-drawer][data-vaul-snap-points=false][data-vaul-drawer-direction=top][data-state=open]{animation-name:slideFromTop}[data-vaul-drawer][data-vaul-snap-points=false][data-vaul-drawer-direction=top][data-state=closed]{animation-name:slideToTop}[data-vaul-drawer][data-vaul-snap-points=false][data-vaul-drawer-direction=left][data-state=open]{animation-name:slideFromLeft}[data-vaul-drawer][data-vaul-snap-points=false][data-vaul-drawer-direction=left][data-state=closed]{animation-name:slideToLeft}[data-vaul-drawer][data-vaul-snap-points=false][data-vaul-drawer-direction=right][data-state=open]{animation-name:slideFromRight}[data-vaul-drawer][data-vaul-snap-points=false][data-vaul-drawer-direction=right][data-state=closed]{animation-name:slideToRight}[data-vaul-drawer][data-vaul-snap-points=true][data-vaul-drawer-direction=bottom]{transform:translate3d(0,var(--initial-transform,100%),0)}[data-vaul-drawer][data-vaul-snap-points=true][data-vaul-drawer-direction=top]{transform:translate3d(0,calc(var(--initial-transform,100%) * -1),0)}[data-vaul-drawer][data-vaul-snap-points=true][data-vaul-drawer-direction=left]{transform:translate3d(calc(var(--initial-transform,100%) * -1),0,0)}[data-vaul-drawer][data-vaul-snap-points=true][data-vaul-drawer-direction=right]{transform:translate3d(var(--initial-transform,100%),0,0)}[data-vaul-drawer][data-vaul-delayed-snap-points=true][data-vaul-drawer-direction=top]{transform:translate3d(0,var(--snap-point-height,0),0)}[data-vaul-drawer][data-vaul-delayed-snap-points=true][data-vaul-drawer-direction=bottom]{transform:translate3d(0,var(--snap-point-height,0),0)}[data-vaul-drawer][data-vaul-delayed-snap-points=true][data-vaul-drawer-direction=left]{transform:translate3d(var(--snap-point-height,0),0,0)}[data-vaul-drawer][data-vaul-delayed-snap-points=true][data-vaul-drawer-direction=right]{transform:translate3d(var(--snap-point-height,0),0,0)}[data-vaul-overlay][data-vaul-snap-points=false]{animation-duration:.5s;animation-timing-function:cubic-bezier(0.32,0.72,0,1)}[data-vaul-overlay][data-vaul-snap-points=false][data-state=open]{animation-name:fadeIn}[data-vaul-overlay][data-state=closed]{animation-name:fadeOut}[data-vaul-animate=false]{animation:none!important}[data-vaul-overlay][data-vaul-snap-points=true]{opacity:0;transition:opacity .5s cubic-bezier(.32, .72, 0, 1)}[data-vaul-overlay][data-vaul-snap-points=true]{opacity:1}[data-vaul-drawer]:not([data-vaul-custom-container=true])::after{content:'';position:absolute;background:inherit;background-color:inherit}[data-vaul-drawer][data-vaul-drawer-direction=top]::after{top:initial;bottom:100%;left:0;right:0;height:200%}[data-vaul-drawer][data-vaul-drawer-direction=bottom]::after{top:100%;bottom:initial;left:0;right:0;height:200%}[data-vaul-drawer][data-vaul-drawer-direction=left]::after{left:initial;right:100%;top:0;bottom:0;width:200%}[data-vaul-drawer][data-vaul-drawer-direction=right]::after{left:100%;right:initial;top:0;bottom:0;width:200%}[data-vaul-overlay][data-vaul-snap-points=true]:not([data-vaul-snap-points-overlay=true]):not(
+[data-state=closed]
+){opacity:0}[data-vaul-overlay][data-vaul-snap-points-overlay=true]{opacity:1}[data-vaul-handle]{display:block;position:relative;opacity:.7;background:#e2e2e4;margin-left:auto;margin-right:auto;height:5px;width:32px;border-radius:1rem;touch-action:pan-y}[data-vaul-handle]:active,[data-vaul-handle]:hover{opacity:1}[data-vaul-handle-hitarea]{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:max(100%,2.75rem);height:max(100%,2.75rem);touch-action:inherit}@media (hover:hover) and (pointer:fine){[data-vaul-drawer]{user-select:none}}@media (pointer:fine){[data-vaul-handle-hitarea]:{width:100%;height:100%}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeOut{to{opacity:0}}@keyframes slideFromBottom{from{transform:translate3d(0,var(--initial-transform,100%),0)}to{transform:translate3d(0,0,0)}}@keyframes slideToBottom{to{transform:translate3d(0,var(--initial-transform,100%),0)}}@keyframes slideFromTop{from{transform:translate3d(0,calc(var(--initial-transform,100%) * -1),0)}to{transform:translate3d(0,0,0)}}@keyframes slideToTop{to{transform:translate3d(0,calc(var(--initial-transform,100%) * -1),0)}}@keyframes slideFromLeft{from{transform:translate3d(calc(var(--initial-transform,100%) * -1),0,0)}to{transform:translate3d(0,0,0)}}@keyframes slideToLeft{to{transform:translate3d(calc(var(--initial-transform,100%) * -1),0,0)}}@keyframes slideFromRight{from{transform:translate3d(var(--initial-transform,100%),0,0)}to{transform:translate3d(0,0,0)}}@keyframes slideToRight{to{transform:translate3d(var(--initial-transform,100%),0,0)}}
+  </style>
+  <meta content="default-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; form-action 'none'; object-src 'none'" http-equiv="Content-Security-Policy"/>
+  <link href="/overrides.css" rel="stylesheet"/>
+  <script defer="True" src="/app.js">
+  </script>
+ </head>
+ <body style="background-color: #ffffff;">
+  <!--
+      Sets the theme before anything paints.
+
+      This used to be decided inside React, which meant the first frame was
+      always the untouched document — the #0d0d1a above — and the class landed
+      one render later. A dark default makes that agree; a light one flashed.
+      Either way the decision cannot wait for a module to load, so it is
+      inlined here.
+
+      Mirrors getThemeMode() in src/lib/theme.js, which stays the source of
+      truth for everything after boot. Keep the two in step.
+    -->
+  <div id="root">
+   <div class="min-h-screen bg-background font-body">
+    <header class="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl overflow-visible" style="padding-top: env(safe-area-inset-top, 0px); top: 0px;">
+     <div class="max-w-7xl mx-auto px-2 sm:px-4 h-16 flex items-center justify-between gap-1 sm:gap-3">
+      <div class="flex items-center gap-1 sm:gap-2 min-w-0">
+       <a class="flex items-center gap-1 shrink-0" href="/">
+        <img alt="Nervant" class="w-14 h-14 2xl:w-16 2xl:h-16 shrink-0 object-contain" loading="lazy" src="/assets/4008545328-nervant-logo.webp"/>
+        <div class="hidden sm:flex flex-col leading-none -space-y-0.5">
+         <span class="font-display font-black tracking-tight text-base 2xl:text-lg whitespace-nowrap" style="background-image: linear-gradient(90deg, var(--hero-primary), var(--hero-accent)); background-clip: text; color: transparent;">
+          Nervant
+         </span>
+        </div>
+       </a>
+      </div>
+      <nav class="hidden 2xl:flex items-center gap-1 flex-1 min-w-0 overflow-x-auto scrollbar-none" style="justify-content: safe center;">
+       <a class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all min-h-[44px] shrink-0 whitespace-nowrap text-foreground/75 hover:text-foreground hover:bg-secondary" href="/">
+        <span class="relative inline-flex">
+         <svg class="lucide lucide-house w-4 h-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8">
+          </path>
+          <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z">
+          </path>
+         </svg>
+        </span>
+        Home
+       </a>
+       <button aria-expanded="false" aria-haspopup="menu" class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all min-h-[44px] outline-none shrink-0 whitespace-nowrap text-foreground/75 hover:text-foreground hover:bg-secondary" data-state="closed" id="radix-:r0:" type="button">
+        <svg class="lucide lucide-zap w-4 h-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
+         </path>
+        </svg>
+        Intelligence
+        <svg class="lucide lucide-chevron-down w-3 h-3 opacity-60" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="m6 9 6 6 6-6">
+         </path>
+        </svg>
+       </button>
+       <a class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all min-h-[44px] shrink-0 whitespace-nowrap text-foreground/75 hover:text-foreground hover:bg-secondary" href="/engage">
+        <span class="relative inline-flex">
+         <svg class="lucide lucide-users w-4 h-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2">
+          </path>
+          <circle cx="9" cy="7" r="4">
+          </circle>
+          <path d="M22 21v-2a4 4 0 0 0-3-3.87">
+          </path>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75">
+          </path>
+         </svg>
+        </span>
+        Engage
+       </a>
+       <button aria-expanded="false" aria-haspopup="menu" class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all min-h-[44px] outline-none shrink-0 whitespace-nowrap text-foreground/75 hover:text-foreground hover:bg-secondary" data-state="closed" id="radix-:r2:" type="button">
+        <svg class="lucide lucide-layout-grid w-4 h-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <rect height="7" rx="1" width="7" x="3" y="3">
+         </rect>
+         <rect height="7" rx="1" width="7" x="14" y="3">
+         </rect>
+         <rect height="7" rx="1" width="7" x="14" y="14">
+         </rect>
+         <rect height="7" rx="1" width="7" x="3" y="14">
+         </rect>
+        </svg>
+        Use Cases
+        <svg class="lucide lucide-chevron-down w-3 h-3 opacity-60" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="m6 9 6 6 6-6">
+         </path>
+        </svg>
+       </button>
+       <a class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all min-h-[44px] shrink-0 whitespace-nowrap text-foreground/75 hover:text-foreground hover:bg-secondary" href="/support">
+        <svg class="lucide lucide-mail w-4 h-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <rect height="16" rx="2" width="20" x="2" y="4">
+         </rect>
+         <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7">
+         </path>
+        </svg>
+        Contact Us
+       </a>
+      </nav>
+      <div class="hidden 2xl:flex shrink-0 ml-1">
+       <div class="flex items-center gap-1 pl-2.5 sm:pl-3 pr-1 rounded-full border bg-secondary/60 py-1 h-9 shrink-0 transition-shadow duration-300 focus-within:shadow-[0_0_0_3px_rgba(124,92,252,0.18)]" style="border-color: var(--dash-border);">
+        <input autocomplete="off" class="w-[84px] bg-transparent text-xs font-mono font-semibold tracking-[0.1em] sm:tracking-[0.15em] text-foreground placeholder:text-muted-foreground placeholder:tracking-normal placeholder:font-sans placeholder:font-normal focus:outline-none uppercase min-w-0" data-nav-join-input="true" maxlength="10" placeholder="Code" value=""/>
+        <button aria-label="Join session" class="w-7 h-7 rounded-full flex items-center justify-center text-white disabled:opacity-30 transition-transform active:scale-90 shrink-0" disabled="" style="background: linear-gradient(135deg, var(--hero-primary), var(--hero-accent));">
+         <svg class="lucide lucide-arrow-right w-3.5 h-3.5" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12h14">
+          </path>
+          <path d="m12 5 7 7-7 7">
+          </path>
+         </svg>
+        </button>
+       </div>
+      </div>
+      <div class="flex-1 min-w-0 flex justify-center 2xl:hidden">
+       <div class="flex items-center gap-0.5 pl-2 pr-0.5 rounded-full border bg-secondary/60 py-1 h-9 shrink min-w-0 transition-shadow duration-300 focus-within:shadow-[0_0_0_3px_rgba(124,92,252,0.18)]" style="border-color: var(--dash-border);">
+        <input autocomplete="off" class="w-11 sm:w-[92px] lg:w-[118px] bg-transparent text-xs font-mono font-semibold tracking-[0.1em] sm:tracking-[0.15em] text-foreground placeholder:text-muted-foreground placeholder:tracking-normal placeholder:font-sans placeholder:font-normal focus:outline-none uppercase min-w-0" data-nav-join-input="true" maxlength="10" placeholder="Code" value=""/>
+        <button aria-label="Join session" class="w-6 h-6 rounded-full flex items-center justify-center text-white disabled:opacity-30 transition-transform active:scale-90 shrink-0" disabled="" style="background: linear-gradient(135deg, var(--hero-primary), var(--hero-accent));">
+         <svg class="lucide lucide-arrow-right w-3.5 h-3.5" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12h14">
+          </path>
+          <path d="m12 5 7 7-7 7">
+          </path>
+         </svg>
+        </button>
+       </div>
+      </div>
+      <button aria-expanded="false" aria-haspopup="menu" aria-label="Menu" class="2xl:hidden text-muted-foreground hover:text-foreground transition-colors p-1.5 sm:p-2 rounded-lg hover:bg-secondary min-w-[36px] min-h-[36px] sm:min-w-[44px] sm:min-h-[44px] flex items-center justify-center shrink-0 outline-none" data-state="closed" id="radix-:r4:" type="button">
+       <svg class="lucide lucide-menu w-4 h-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <line x1="4" x2="20" y1="12" y2="12">
+        </line>
+        <line x1="4" x2="20" y1="6" y2="6">
+        </line>
+        <line x1="4" x2="20" y1="18" y2="18">
+        </line>
+       </svg>
+      </button>
+      <div class="flex items-center gap-0.5 sm:gap-1 shrink-0">
+       <a class="text-xs font-heading font-bold text-primary hover:text-primary/80 transition-colors whitespace-nowrap px-1" href="/login">
+        Sign In
+       </a>
+      </div>
+     </div>
+    </header>
+    <main class="2xl:pb-8 main-scroll" style="padding-top: calc(4rem + env(safe-area-inset-top, 0px));">
+     <div class="min-h-screen bg-background pb-16">
+      <section class="relative overflow-hidden border-b border-border bg-[#090913] text-white">
+       <div class="absolute inset-0 opacity-80" style="background: radial-gradient(circle at 10% 4%, rgba(99, 102, 241, 0.42), transparent 32%), radial-gradient(circle at 92% 82%, rgba(236, 72, 153, 0.26), transparent 35%);">
+       </div>
+       <div class="relative mx-auto max-w-7xl px-5 py-14 sm:px-8 sm:py-20 lg:px-12">
+        <a class="mb-10 inline-flex items-center gap-2 rounded-lg bg-white/10 px-3 py-2 text-sm font-semibold shadow-sm ring-1 ring-white/35 transition hover:bg-white/20" href="/" style="color: rgb(255, 255, 255);">
+         <svg class="lucide lucide-arrow-left h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="m12 19-7-7 7-7">
+          </path>
+          <path d="M19 12H5">
+          </path>
+         </svg>
+         Back to Nervant
+        </a>
+        <div class="grid items-end gap-10 lg:grid-cols-[1.1fr_.9fr]">
+         <div>
+          <div class="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-1.5 text-xs font-bold uppercase tracking-[.18em] text-cyan-200">
+           <svg class="lucide lucide-sparkles h-3.5 w-3.5" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z">
+            </path>
+            <path d="M20 3v4">
+            </path>
+            <path d="M22 5h-4">
+            </path>
+            <path d="M4 17v2">
+            </path>
+            <path d="M5 18H3">
+            </path>
+           </svg>
+           The Nervant Impact Fund
+          </div>
+          <h1 class="max-w-3xl font-display text-5xl font-bold leading-[.94] tracking-tight sm:text-7xl" style="color: rgb(255, 255, 255);">
+           Put your people
+           <span class="text-cyan-200">
+            in motion.
+           </span>
+          </h1>
+          <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-100" style="color: rgb(248, 250, 252);">
+           For the ambitious school or small business ready to show how more inclusive participation can change what happens next.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+           <button class="inline-flex min-h-12 items-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-bold text-slate-950 transition hover:-translate-y-0.5">
+            <svg class="lucide lucide-award h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+             <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+             </path>
+             <circle cx="12" cy="8" r="6">
+             </circle>
+            </svg>
+            Apply to the fund
+            <svg class="lucide lucide-arrow-right h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+             <path d="M5 12h14">
+             </path>
+             <path d="m12 5 7 7-7 7">
+             </path>
+            </svg>
+           </button>
+           <a class="inline-flex min-h-12 items-center gap-2 rounded-xl border border-white/50 bg-white/10 px-5 py-3 text-sm font-bold shadow-sm transition hover:bg-white/20" href="#prizes" style="color: rgb(255, 255, 255);">
+            See the prizes
+           </a>
+          </div>
+          <div class="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm font-medium text-slate-100" style="color: rgb(248, 250, 252);">
+           <span class="inline-flex items-center gap-2">
+            <svg class="lucide lucide-check h-4 w-4 text-cyan-300" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+             <path d="M20 6 9 17l-5-5">
+             </path>
+            </svg>
+            Applications close 30 Oct 2026 · 23:59 GMT
+           </span>
+           <span class="inline-flex items-center gap-2">
+            <svg class="lucide lucide-check h-4 w-4 text-cyan-300" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+             <path d="M20 6 9 17l-5-5">
+             </path>
+            </svg>
+            Free to enter
+           </span>
+           <span class="inline-flex items-center gap-2">
+            <svg class="lucide lucide-check h-4 w-4 text-cyan-300" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+             <path d="M20 6 9 17l-5-5">
+             </path>
+            </svg>
+            Judged on merit
+           </span>
+           <span class="inline-flex items-center gap-2">
+            <svg class="lucide lucide-check h-4 w-4 text-cyan-300" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+             <path d="M20 6 9 17l-5-5">
+             </path>
+            </svg>
+            Real Nervant app screenshots required
+           </span>
+          </div>
+         </div>
+         <div class="relative overflow-hidden rounded-[2rem] border border-white/15 bg-white/5 shadow-2xl">
+          <img alt="A diverse team collaborating around their ideas" class="h-[360px] w-full object-cover object-center sm:h-[430px]" loading="lazy" src="/assets/4ced83aef5-impact-fund-people-clean.webp"/>
+          <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950 via-slate-950/90 to-slate-950/10 p-6 pt-28">
+           <p class="text-xs font-bold uppercase tracking-[.18em] text-cyan-200">
+            For schools and small businesses
+           </p>
+           <h2 class="mt-2 font-heading text-2xl font-bold leading-tight" style="color: rgb(255, 255, 255);">
+            Ideas move further when everyone can take part.
+           </h2>
+           <p class="mt-2 max-w-xl text-sm font-medium leading-6 text-slate-100">
+            Share how you would use Nervant to listen, learn and turn participation into action.
+           </p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </section>
+      <section class="mx-auto max-w-7xl px-5 py-14 sm:px-8 lg:px-12" id="prizes">
+       <div class="mb-8 max-w-xl">
+        <p class="text-sm font-bold uppercase tracking-[.16em] text-primary">
+         Three awards. One stronger culture.
+        </p>
+        <h2 class="mt-3 font-display text-4xl font-bold tracking-tight">
+         What the fund gives back
+        </h2>
+       </div>
+       <div class="grid gap-4 md:grid-cols-3">
+        <article class="rounded-3xl border border-border bg-card p-6 shadow-sm">
+         <span class="mb-8 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 text-slate-950">
+          <svg class="lucide lucide-trophy h-6 w-6" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+           <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6">
+           </path>
+           <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18">
+           </path>
+           <path d="M4 22h16">
+           </path>
+           <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22">
+           </path>
+           <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22">
+           </path>
+           <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z">
+           </path>
+          </svg>
+         </span>
+         <p class="text-sm font-bold text-primary">
+          First place
+         </p>
+         <h3 class="mt-2 font-heading text-xl font-bold">
+          Nervant Business for one year
+         </h3>
+         <p class="mt-2 text-sm font-semibold text-muted-foreground">
+          Worth £1,990
+         </p>
+         <p class="mt-4 text-3xl font-bold">
+          US$100
+         </p>
+         <p class="mt-2 text-sm text-muted-foreground">
+          Cash award paid to the verified organisation or its authorised representative.
+         </p>
+        </article>
+        <article class="rounded-3xl border border-border bg-card p-6 shadow-sm">
+         <span class="mb-8 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-slate-300 to-slate-500 text-slate-950">
+          <svg class="lucide lucide-award h-6 w-6" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+           <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+           </path>
+           <circle cx="12" cy="8" r="6">
+           </circle>
+          </svg>
+         </span>
+         <p class="text-sm font-bold text-primary">
+          Second place
+         </p>
+         <h3 class="mt-2 font-heading text-xl font-bold">
+          Nervant Teams for one year
+         </h3>
+         <p class="mt-2 text-sm font-semibold text-muted-foreground">
+          Worth £690
+         </p>
+         <p class="mt-4 text-3xl font-bold">
+          US$50
+         </p>
+         <p class="mt-2 text-sm text-muted-foreground">
+          Cash award paid to the verified organisation or its authorised representative.
+         </p>
+        </article>
+        <article class="rounded-3xl border border-border bg-card p-6 shadow-sm">
+         <span class="mb-8 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-400 to-amber-700 text-slate-950">
+          <svg class="lucide lucide-circle-dollar-sign h-6 w-6" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+           <circle cx="12" cy="12" r="10">
+           </circle>
+           <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8">
+           </path>
+           <path d="M12 18V6">
+           </path>
+          </svg>
+         </span>
+         <p class="text-sm font-bold text-primary">
+          Third place
+         </p>
+         <h3 class="mt-2 font-heading text-xl font-bold">
+          Nervant Teams for one year
+         </h3>
+         <p class="mt-2 text-sm font-semibold text-muted-foreground">
+          Worth £690
+         </p>
+         <p class="mt-4 text-3xl font-bold">
+          US$25
+         </p>
+         <p class="mt-2 text-sm text-muted-foreground">
+          Cash award paid to the verified organisation or its authorised representative.
+         </p>
+        </article>
+       </div>
+      </section>
+      <section class="border-b border-border bg-primary/5">
+       <div class="mx-auto max-w-7xl px-5 py-10 sm:px-8 lg:px-12">
+        <div class="flex flex-col gap-5 rounded-3xl border border-primary/20 bg-card p-6 sm:flex-row sm:items-center sm:justify-between">
+         <div>
+          <p class="text-sm font-bold uppercase tracking-[.16em] text-primary">
+           Finalist recognition
+          </p>
+          <h2 class="mt-2 font-heading text-2xl font-bold">
+           Up to 10 finalists receive Nervant Teams for one year.
+          </h2>
+          <p class="mt-2 max-w-3xl text-sm leading-6 text-muted-foreground">
+           A £690 value per finalist - up to £6,900 in Teams subscriptions. The second- and third-place awards are included within this finalist pool, alongside their cash prizes.
+          </p>
+         </div>
+         <svg class="lucide lucide-users h-10 w-10 shrink-0 text-primary" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2">
+          </path>
+          <circle cx="9" cy="7" r="4">
+          </circle>
+          <path d="M22 21v-2a4 4 0 0 0-3-3.87">
+          </path>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75">
+          </path>
+         </svg>
+        </div>
+       </div>
+      </section>
+      <section class="border-y border-border bg-secondary/35">
+       <div class="mx-auto grid max-w-7xl gap-8 px-5 py-14 sm:px-8 md:grid-cols-3 lg:px-12">
+        <div>
+         <svg class="lucide lucide-briefcase-business mb-4 h-6 w-6 text-primary" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 12h.01">
+          </path>
+          <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2">
+          </path>
+          <path d="M22 13a18.15 18.15 0 0 1-20 0">
+          </path>
+          <rect height="14" rx="2" width="20" x="2" y="6">
+          </rect>
+         </svg>
+         <h3 class="font-heading text-lg font-bold">
+          Small businesses
+         </h3>
+         <p class="mt-2 text-sm leading-6 text-muted-foreground">
+          Show how Nervant will help your team listen, learn, decide or grow.
+         </p>
+        </div>
+        <div>
+         <svg class="lucide lucide-graduation-cap mb-4 h-6 w-6 text-primary" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+          </path>
+          <path d="M22 10v6">
+          </path>
+          <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5">
+          </path>
+         </svg>
+         <h3 class="font-heading text-lg font-bold">
+          Schools and educators
+         </h3>
+         <p class="mt-2 text-sm leading-6 text-muted-foreground">
+          Show how active learning can make classrooms more inclusive and memorable.
+         </p>
+        </div>
+        <div>
+         <svg class="lucide lucide-users mb-4 h-6 w-6 text-primary" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2">
+          </path>
+          <circle cx="9" cy="7" r="4">
+          </circle>
+          <path d="M22 21v-2a4 4 0 0 0-3-3.87">
+          </path>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75">
+          </path>
+         </svg>
+         <h3 class="font-heading text-lg font-bold">
+          Built for action
+         </h3>
+         <p class="mt-2 text-sm leading-6 text-muted-foreground">
+          Make a short video or take a photo demonstrating your team’s Nervant idea in action.
+         </p>
+        </div>
+       </div>
+      </section>
+      <section class="border-y border-border bg-secondary/35">
+       <div class="mx-auto max-w-4xl px-5 py-14 sm:px-8">
+        <p class="text-sm font-bold uppercase tracking-[.16em] text-primary">
+         How winners are chosen
+        </p>
+        <h2 class="mt-3 font-display text-4xl font-bold tracking-tight">
+         Judged on merit, never chance.
+        </h2>
+        <p class="mt-4 max-w-2xl text-sm leading-6 text-muted-foreground">
+         Every eligible entry is scored by a judging panel against the same published rubric. There is no random draw, public voting or requirement to buy a Nervant plan.
+        </p>
+        <div class="mt-7 grid gap-3 sm:grid-cols-2">
+         <div class="rounded-2xl border border-border bg-card p-4">
+          <p class="text-2xl font-bold text-primary">
+           30%
+          </p>
+          <p class="mt-1 text-sm font-bold">
+           Challenge and goal
+          </p>
+          <p class="mt-1 text-xs leading-5 text-muted-foreground">
+           How clearly you identify a meaningful problem and outcome.
+          </p>
+         </div>
+         <div class="rounded-2xl border border-border bg-card p-4">
+          <p class="text-2xl font-bold text-primary">
+           30%
+          </p>
+          <p class="mt-1 text-sm font-bold">
+           Nervant in action
+          </p>
+          <p class="mt-1 text-xs leading-5 text-muted-foreground">
+           How practical and thoughtful your proposed use of Nervant is.
+          </p>
+         </div>
+         <div class="rounded-2xl border border-border bg-card p-4">
+          <p class="text-2xl font-bold text-primary">
+           25%
+          </p>
+          <p class="mt-1 text-sm font-bold">
+           Achievement and impact
+          </p>
+          <p class="mt-1 text-xs leading-5 text-muted-foreground">
+           Evidence of what you have achieved and what could change next.
+          </p>
+         </div>
+         <div class="rounded-2xl border border-border bg-card p-4">
+          <p class="text-2xl font-bold text-primary">
+           15%
+          </p>
+          <p class="mt-1 text-sm font-bold">
+           Pitch and supporting media
+          </p>
+          <p class="mt-1 text-xs leading-5 text-muted-foreground">
+           Clarity, relevance and quality of your application evidence.
+          </p>
+         </div>
+        </div>
+       </div>
+      </section>
+      <section class="mx-auto max-w-4xl scroll-mt-24 px-5 py-16 sm:px-8">
+       <div class="mb-10 overflow-hidden rounded-3xl border border-primary/25 bg-[#090913] p-5 text-white shadow-xl sm:p-8">
+        <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+         <div>
+          <p class="text-xs font-bold uppercase tracking-[.18em] text-cyan-200">
+           Application deadline
+          </p>
+          <h2 class="mt-2 font-display text-2xl font-bold sm:text-3xl" style="color: rgb(255, 255, 255);">
+           Time left to apply
+          </h2>
+          <p class="mt-2 text-sm text-slate-300">
+           Closes 30 October 2026 at 23:59 GMT
+          </p>
+         </div>
+         <div class="grid grid-cols-4 gap-2 sm:gap-3">
+          <div class="min-w-0 rounded-2xl border border-white/15 bg-white/10 px-2 py-3 text-center sm:min-w-[82px] sm:px-4">
+           <span class="block font-display text-2xl font-bold tabular-nums sm:text-4xl" style="color: rgb(255, 255, 255);">
+            44
+           </span>
+           <span class="mt-1 block text-[9px] font-bold uppercase tracking-wide text-cyan-200 sm:text-[10px]">
+            Days
+           </span>
+          </div>
+          <div class="min-w-0 rounded-2xl border border-white/15 bg-white/10 px-2 py-3 text-center sm:min-w-[82px] sm:px-4">
+           <span class="block font-display text-2xl font-bold tabular-nums sm:text-4xl" style="color: rgb(255, 255, 255);">
+            18
+           </span>
+           <span class="mt-1 block text-[9px] font-bold uppercase tracking-wide text-cyan-200 sm:text-[10px]">
+            Hours
+           </span>
+          </div>
+          <div class="min-w-0 rounded-2xl border border-white/15 bg-white/10 px-2 py-3 text-center sm:min-w-[82px] sm:px-4">
+           <span class="block font-display text-2xl font-bold tabular-nums sm:text-4xl" style="color: rgb(255, 255, 255);">
+            47
+           </span>
+           <span class="mt-1 block text-[9px] font-bold uppercase tracking-wide text-cyan-200 sm:text-[10px]">
+            Minutes
+           </span>
+          </div>
+          <div class="min-w-0 rounded-2xl border border-white/15 bg-white/10 px-2 py-3 text-center sm:min-w-[82px] sm:px-4">
+           <span class="block font-display text-2xl font-bold tabular-nums sm:text-4xl" style="color: rgb(255, 255, 255);">
+            44
+           </span>
+           <span class="mt-1 block text-[9px] font-bold uppercase tracking-wide text-cyan-200 sm:text-[10px]">
+            Seconds
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb-9 max-w-2xl">
+        <p class="text-sm font-bold uppercase tracking-[.16em] text-primary">
+         Your application
+        </p>
+        <h2 class="mt-3 font-display text-4xl font-bold tracking-tight">
+         Tell us what you would make possible.
+        </h2>
+        <p class="mt-4 text-base leading-7 text-muted-foreground">
+         Open to schools, small and medium businesses, creator-led communities and recruitment or people teams. Work, school or creator/business email is preferred so we can verify your organisation. Personal email addresses are welcome, but we may ask for proof of your authority if you are shortlisted. Your submission is reviewed privately; media is never published without your separate permission.
+        </p>
+       </div>
+       <div class="mb-6 flex items-start gap-3 rounded-2xl border border-destructive/40 bg-destructive/5 p-4 sm:p-5">
+        <svg class="lucide lucide-image-plus mt-0.5 h-5 w-5 shrink-0 text-destructive" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M16 5h6">
+         </path>
+         <path d="M19 2v6">
+         </path>
+         <path d="M21 11.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7.5">
+         </path>
+         <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21">
+         </path>
+         <circle cx="9" cy="9" r="2">
+         </circle>
+        </svg>
+        <p class="text-sm leading-6 text-foreground">
+         <span class="font-bold">
+          Before you write your answers:
+         </span>
+         your application is judged on real screenshots (or a short video) from the Nervant app showing your team actually using it — not on written answers alone. Written-only entries without app evidence will not score well. See "Show Nervant in action" further down for exactly what to capture.
+        </p>
+       </div>
+       <form class="space-y-8 rounded-3xl border border-border bg-card p-5 shadow-sm sm:p-8">
+        <input aria-hidden="true" autocomplete="off" class="hidden" tabindex="-1" value=""/>
+        <div class="grid gap-5 sm:grid-cols-2">
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            I am applying as
+            <span class="text-primary">
+             *
+            </span>
+           </span>
+          </span>
+          <select class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" required="">
+           <option value="">
+            Select one
+           </option>
+           <option value="small_business">
+            A small or medium business
+           </option>
+           <option value="school">
+            A school or education organisation
+           </option>
+           <option value="creator">
+            A creator, media or community organisation
+           </option>
+           <option value="people_team">
+            A recruitment, HR or people team
+           </option>
+          </select>
+         </label>
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            Organisation, creator or team name
+            <span class="text-primary">
+             *
+            </span>
+           </span>
+          </span>
+          <input class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" placeholder="Your organisation, channel or team" required="" value=""/>
+         </label>
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            Team or audience size
+            <span class="text-primary">
+             *
+            </span>
+           </span>
+          </span>
+          <select class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" required="">
+           <option value="">
+            Select one
+           </option>
+           <option value="solo">
+            Just me / solo creator
+           </option>
+           <option value="2_5">
+            2–5 people
+           </option>
+           <option value="6_15">
+            6–15 people
+           </option>
+           <option value="16_50">
+            16–50 people
+           </option>
+           <option value="51_250">
+            51–250 people
+           </option>
+           <option value="251_plus">
+            251+ people
+           </option>
+          </select>
+          <span class="mt-1.5 block text-xs leading-5 text-muted-foreground">
+           This helps Nervant tailor a prize subscription; it does not affect judging.
+          </span>
+         </label>
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            Your name
+            <span class="text-primary">
+             *
+            </span>
+           </span>
+          </span>
+          <input class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" placeholder="Full name" required="" value=""/>
+         </label>
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            Your role
+            <span class="text-primary">
+             *
+            </span>
+           </span>
+          </span>
+          <input class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" placeholder="Founder, teacher, head of department…" required="" value=""/>
+         </label>
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            Email address
+            <span class="text-primary">
+             *
+            </span>
+           </span>
+          </span>
+          <input class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" placeholder="you@organisation.org" required="" type="email"/>
+          <span class="mt-1.5 block text-xs leading-5 text-muted-foreground">
+           Work, school or creator/business email is preferred. Personal addresses are accepted; shortlisted entrants may be asked to verify their authority.
+          </span>
+         </label>
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            Country
+            <span class="text-primary">
+             *
+            </span>
+           </span>
+          </span>
+          <input class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" placeholder="Where you operate" required="" value=""/>
+         </label>
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            Website
+           </span>
+          </span>
+          <input class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" inputmode="url" placeholder="https://" type="text" value=""/>
+         </label>
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            LinkedIn
+           </span>
+          </span>
+          <input class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" inputmode="url" placeholder="https://linkedin.com/company/..." type="text" value=""/>
+         </label>
+        </div>
+        <div class="grid gap-5">
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            Your proudest achievement
+            <span class="text-primary">
+             *
+            </span>
+           </span>
+           <span class="shrink-0 text-xs font-bold tabular-nums text-destructive">
+            0/800
+           </span>
+          </span>
+          <textarea class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" maxlength="800" minlength="20" placeholder="Share the moment, change or milestone that matters." required="" rows="4"></textarea>
+          <span class="mt-1.5 block text-xs leading-5 text-muted-foreground">
+           What has your school or business achieved that you are proud of? At least 20 characters.
+          </span>
+         </label>
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            Your goal and the challenge behind it
+            <span class="text-primary">
+             *
+            </span>
+           </span>
+           <span class="shrink-0 text-xs font-bold tabular-nums text-destructive">
+            0/1000
+           </span>
+          </span>
+          <textarea class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" maxlength="1000" minlength="20" placeholder="For [your people], we want to improve [challenge] so that [outcome]." required="" rows="5"></textarea>
+          <span class="mt-1.5 block text-xs leading-5 text-muted-foreground">
+           Use this simple structure: who you want to involve, what needs to improve, and the outcome you want to create. At least 20 characters.
+          </span>
+         </label>
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            Your Nervant use case
+            <span class="text-primary">
+             *
+            </span>
+           </span>
+           <span class="shrink-0 text-xs font-bold tabular-nums text-destructive">
+            0/1000
+           </span>
+          </span>
+          <textarea class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" maxlength="1000" minlength="20" placeholder="We will use [live session, poll, quiz, word cloud, presentation, podcast or intelligence] with [audience] to [action and outcome]." required="" rows="5"></textarea>
+          <span class="mt-1.5 block text-xs leading-5 text-muted-foreground">
+           Name the Nervant product you would use, the people taking part, and what they will do. At least 20 characters.
+          </span>
+         </label>
+         <label class="block">
+          <span class="mb-2 flex items-baseline justify-between gap-2">
+           <span class="text-sm font-bold text-foreground">
+            Your short pitch
+            <span class="text-primary">
+             *
+            </span>
+           </span>
+           <span class="shrink-0 text-xs font-bold tabular-nums text-destructive">
+            0/1200
+           </span>
+          </span>
+          <textarea class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" maxlength="1200" minlength="20" placeholder="Why your idea matters now, how it is achievable, and the impact it could have." required="" rows="5"></textarea>
+          <span class="mt-1.5 block text-xs leading-5 text-muted-foreground">
+           20 to 1,200 characters. Explain why your organisation should be selected and what would change with Nervant.
+          </span>
+         </label>
+        </div>
+        <div class="rounded-3xl border border-primary/30 bg-primary/5 p-5 sm:p-6">
+         <div class="flex gap-3">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/15 text-primary">
+           <svg class="lucide lucide-image-plus h-5 w-5" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 5h6">
+            </path>
+            <path d="M19 2v6">
+            </path>
+            <path d="M21 11.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7.5">
+            </path>
+            <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21">
+            </path>
+            <circle cx="9" cy="9" r="2">
+            </circle>
+           </svg>
+          </span>
+          <div>
+           <p class="text-xs font-bold uppercase tracking-[.16em] text-primary">
+            Standard evidence template
+           </p>
+           <h3 class="mt-1 font-heading text-xl font-bold">
+            Show Nervant in action
+           </h3>
+           <p class="mt-2 max-w-3xl text-sm leading-6 text-muted-foreground">
+            Upload a photo, video or document showing how you or your team would use Nervant. You can combine your full story, screenshots and supporting evidence into one PDF and upload that single file. Use a hosted session, live poll, quiz, word cloud, presentation, podcast or Nervant Intelligence.
+           </p>
+          </div>
+         </div>
+         <div class="mt-5 grid gap-3 md:grid-cols-3">
+          <div class="rounded-2xl border border-primary/15 bg-background/80 p-4">
+           <p class="text-sm font-bold text-foreground">
+            1. Show the product
+           </p>
+           <p class="mt-1 text-xs leading-5 text-muted-foreground">
+            Capture the screen, device or projection with a recognisable Nervant session or feature visible.
+           </p>
+          </div>
+          <div class="rounded-2xl border border-primary/15 bg-background/80 p-4">
+           <p class="text-sm font-bold text-foreground">
+            2. Show the people
+           </p>
+           <p class="mt-1 text-xs leading-5 text-muted-foreground">
+            Show the host, learners or team participating—answering, discussing or responding.
+           </p>
+          </div>
+          <div class="rounded-2xl border border-primary/15 bg-background/80 p-4">
+           <p class="text-sm font-bold text-foreground">
+            3. Explain the outcome
+           </p>
+           <p class="mt-1 text-xs leading-5 text-muted-foreground">
+            In your video or linked caption, say what the session helped you learn, decide or improve.
+           </p>
+          </div>
+         </div>
+         <div class="mt-5 rounded-2xl border border-dashed border-primary/35 bg-background/70 p-4">
+          <p class="text-sm font-bold text-foreground">
+           Suggested 30–60 second video sequence
+          </p>
+          <ol class="mt-2 grid gap-2 text-sm leading-6 text-muted-foreground sm:grid-cols-3">
+           <li>
+            <span class="font-bold text-primary">
+             01
+            </span>
+            Introduce your organisation and goal.
+           </li>
+           <li>
+            <span class="font-bold text-primary">
+             02
+            </span>
+            Show Nervant being used by your people.
+           </li>
+           <li>
+            <span class="font-bold text-primary">
+             03
+            </span>
+            Share the impact you want to create.
+           </li>
+          </ol>
+         </div>
+         <div class="mt-5 grid gap-3 sm:grid-cols-2">
+          <label class="flex min-h-14 cursor-pointer items-center justify-center gap-2 rounded-xl border border-primary/30 bg-background px-4 text-sm font-bold text-primary transition hover:bg-primary/10">
+           <svg class="lucide lucide-upload h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4">
+            </path>
+            <polyline points="17 8 12 3 7 8">
+            </polyline>
+            <line x1="12" x2="12" y1="3" y2="15">
+            </line>
+           </svg>
+           <span>
+            Upload PDF, document, photo or video
+           </span>
+           <input accept=".pdf,.doc,.docx,.ppt,.pptx,image/jpeg,image/png,image/webp,video/mp4,video/quicktime,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.presentation" class="sr-only" type="file"/>
+          </label>
+          <input class="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20" placeholder="Or paste your video link (YouTube, Vimeo, Drive, etc.)" type="url" value=""/>
+         </div>
+         <p class="mt-3 text-xs leading-5 text-muted-foreground">
+          Submit one file or one video link. You may combine your entire story into a single PDF. Accepted: PDF, Word, PowerPoint, JPG, PNG, WebP, MP4 and MOV. Maximum upload size: 20MB. Do not include identifiable children or third parties unless you have permission.
+         </p>
+        </div>
+        <div class="space-y-3 border-t border-border pt-6">
+         <label class="flex gap-3 text-sm leading-6 text-muted-foreground">
+          <input class="mt-1 h-4 w-4 shrink-0 accent-primary" required="" type="checkbox"/>
+          <span>
+           I am 18 or older, authorised to apply for this organisation, and agree to the
+           <a class="font-semibold text-primary underline" href="/impact-fund/terms">
+            Impact Fund competition terms
+           </a>
+           and
+           <a class="font-semibold text-primary underline" href="/privacy">
+            privacy policy
+           </a>
+           .
+          </span>
+         </label>
+         <label class="flex gap-3 text-sm leading-6 text-muted-foreground">
+          <input class="mt-1 h-4 w-4 shrink-0 accent-primary" required="" type="checkbox"/>
+          <span>
+           I own or have permission to submit all material, including the image/video and anyone identifiable in it.
+          </span>
+         </label>
+         <label class="flex gap-3 text-sm leading-6 text-muted-foreground">
+          <input class="mt-1 h-4 w-4 shrink-0 accent-primary" type="checkbox"/>
+          <span>
+           I permit Nervant to contact me about featuring this submission publicly if it is shortlisted. This is optional and can be withdrawn.
+          </span>
+         </label>
+         <label class="flex gap-3 text-sm leading-6 text-muted-foreground">
+          <input class="mt-1 h-4 w-4 shrink-0 accent-primary" type="checkbox"/>
+          <span>
+           I would like to receive occasional Nervant product and campaign updates. Optional.
+          </span>
+         </label>
+        </div>
+        <button class="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-bold text-white transition hover:bg-primary/90 disabled:cursor-not-allowed disabled:opacity-60">
+         Submit my Impact Fund application
+         <svg class="lucide lucide-arrow-right h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12h14">
+          </path>
+          <path d="m12 5 7 7-7 7">
+          </path>
+         </svg>
+        </button>
+       </form>
+      </section>
+     </div>
+    </main>
+   </div>
+   <section aria-atomic="false" aria-label="Notifications alt+T" aria-live="polite" aria-relevant="additions text" tabindex="-1">
+   </section>
+  </div>
+ </body>
+</html>
